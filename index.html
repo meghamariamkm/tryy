@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charaset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Marck+Script&display=swap" rel="stylesheet">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+	<div class="container">
+		<div class="items">
+			<h3>SEVERE BLEEDING</h3>
+			1. Remove any clothing or debris on the wound.<br>
+			Don't remove large or deeply embedded objects. Don't probe the wound or attempt to clean it yet.<br>
+			2. Stop the bleeding. <br>
+						Place a sterile bandage or clean cloth on the wound. Press the bandage firmly with your palm to control bleeding. <br>
+					3. Help the injured person lie down.<br> 
+					 	possible, place the person on a rug or blanket to prevent loss of body heat.<br>
+					4. Don't remove the gauze or bandage.<br>
+						If the bleeding seeps through the gauze or other cloth on the wound, add another bandage on top of it.<br> 
+		</div>
+		<div class="items">
+			<h3>MAJOR BURN</h3>
+			1. Remove restrictive items from their body, such as belts and jewelry in or near the burned areas. Burned areas typically swell quickly.<br>
+			2. Cover the burned area. Use a clean cloth or bandage that’s moistened with cool, clean water.<br>
+			3. Avoid immersing the person or burned body parts in water. Hypothermia (severe loss of body heat) can occur if you immerse large, severe burns in water.<br>
+			4. Watch for shock. Signs and symptoms of shock include shallow breathing, pale complexion, and fainting.<br>	
+		</div>
+		<div class="items">
+			<h3>SHOCK</h3>
+			1. Elevate the person's feet about 12 inches unless head, neck, or back is injured or you suspect broken hip or leg bones.<br>
+			2. Do not raise the person's head.<br>
+			3. Turn the person on side if they are vomiting or bleeding from the mouth.<br>
+			4. If the person is not breathing or breathing seems dangerously weak give CPR.<br>
+			5. Keep Person Warm and Comfortable<br>
+			6. Follow up: At the hospital, the person will be given oxygen and intravenous fluids.Blood test, urine tests, heart test and xrays and/or CT scans may be done.
+		</div>
+	</div>
+	<div class="container1">
+		<div class="flex-item-left">
+			<a href="index.html">Recap</a>
+		</div>
+		<div class="flex-item-right">
+			<a href="content2.html">Next</a>
+		</div>		
+	</div>	
+	
+</body>
+</html>
+
+<style>
+	.container{
+			display:flex;
+			justify-content:center;
+	}
+	
+	.container1{
+			display:flex;
+			justify-content: space-between;
+			
+	}	
+	
+	.flex-item-right{
+				
+				margin-top:50px;
+				flex:50%;
+				text-align: right;
+				margin-right:30px;
+	}
+	
+	.flex-item-left{
+				
+				margin-top:50px;
+				flex:50%;
+				margin-left:30px;
+				
+	}							
+	
+	.container>div{
+			flex-basis: 100%;		
+			background-color:white;
+			margin-left: 20px;
+			margin-top: 40px;
+			padding: 20px;
+			font-size:29px;
+			border-radius:5%;
+			font-family: 'Hachi Maru Pop', cursive;
+			font-family: 'Marck Script', cursive;
+	}
+	
+	html { 
+  		background: url(cover.jpg) no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+	}
+	
+	h3{
+		font-family: courier, serif;
+	}	
+	
+	@media (max-width: 800px) {
+  		.container {
+   				 flex-direction: column;
+ 		 }
+ 		 .container>div{
+ 		 			font-size:34px;
+ 		 }			
+	}			
+</style>			
